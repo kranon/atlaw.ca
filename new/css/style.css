@@ -32,8 +32,8 @@ ul {
 	margin: 20px auto;
 }
 
-.big, .s-block, .logo, .logo:before, .list, .m-top, .m-bottom, .w-image, .w-title, .m-image, .b-list, .ava, .t-block, .block{
-	background: #222;
+.big, .s-block, .logo, .logo:before, .list, .m-top, .m-bottom, .w-image, .w-title, .m-image, .b-list, .ava, .t-block, .block,footer{
+	background: gray;
 }
 .top{
 	margin: 0 0 40px 0px;
@@ -85,7 +85,7 @@ ul {
 
 .w-block{
 	float: left;
-	width: 22%;
+	width: 30%;
 	margin: 0 0 0 4%;
 	font-size: 12px;
 	line-height: 1.5em;
@@ -105,8 +105,43 @@ ul {
 	height: 50px;
 	margin: 0 0 30px 0;
 }
-
-
+footer{
+	height: 200px;
+	margin-top: 30px;
+}
+.bottomfooter{
+	position: relative;
+	bottom: -30px;
+}
+footer .item{
+	/*margin-top: 140px;*/
+	float:right;
+	margin: 0px;
+}
+.copyright{
+	float:left;
+	margin-left: 20px;
+}
+.copyright a{
+	color: #4F4F4F;
+}
+footer .cols{
+	float:left;
+	width: 100%;
+	overflow: hidden;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+footer .col{
+	float:left;
+	display: inline;
+	width: 30%;
+}
+.col-title{
+	font-weight: 700;
+	font-size: 13px;
+}
 @media screen and (min-width: 600px) and (max-width: 800px) {
 
 		.w-block{
